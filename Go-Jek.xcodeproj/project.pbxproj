@@ -18,6 +18,10 @@
 		5B4FF605230CFF0F00619847 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF602230CFF0E00619847 /* Utility.swift */; };
 		5B4FF606230CFF0F00619847 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF603230CFF0E00619847 /* Constants.swift */; };
 		5B4FF607230CFF0F00619847 /* UIViewControllerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF604230CFF0F00619847 /* UIViewControllerExtention.swift */; };
+		5B4FF60D230CFF5E00619847 /* NWResultStatusEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF609230CFF5E00619847 /* NWResultStatusEnum.swift */; };
+		5B4FF60E230CFF5E00619847 /* Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF60A230CFF5E00619847 /* Domain.swift */; };
+		5B4FF60F230CFF5E00619847 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF60B230CFF5E00619847 /* NetworkManager.swift */; };
+		5B4FF610230CFF5E00619847 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF60C230CFF5E00619847 /* EndPoints.swift */; };
 		7D94CC647CBD509E8568274B /* Pods_Go_JekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056A9A8369D92658BBF17763 /* Pods_Go_JekTests.framework */; };
 		8787B79319F06270F27626AB /* Pods_Go_Jek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F7C7954CD6B9E9729368D9 /* Pods_Go_Jek.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +66,10 @@
 		5B4FF602230CFF0E00619847 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		5B4FF603230CFF0E00619847 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5B4FF604230CFF0F00619847 /* UIViewControllerExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtention.swift; sourceTree = "<group>"; };
+		5B4FF609230CFF5E00619847 /* NWResultStatusEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NWResultStatusEnum.swift; sourceTree = "<group>"; };
+		5B4FF60A230CFF5E00619847 /* Domain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Domain.swift; sourceTree = "<group>"; };
+		5B4FF60B230CFF5E00619847 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		5B4FF60C230CFF5E00619847 /* EndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 		949880C5137FFB81F62D7AAA /* Pods_Go_JekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_JekUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4636BBD98B95D046F1F0300 /* Pods-Go-JekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-JekTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go-JekTests/Pods-Go-JekTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FCFA9C71B0378D56730765CD /* Pods-Go-JekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-JekUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go-JekUITests/Pods-Go-JekUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +138,7 @@
 		5B4FF5D2230C39A700619847 /* Go-Jek */ = {
 			isa = PBXGroup;
 			children = (
+				5B4FF608230CFF4600619847 /* NetworkLayer */,
 				5B4FF601230C3A8C00619847 /* Commons */,
 				5B4FF5D3230C39A700619847 /* AppDelegate.swift */,
 				5B4FF5D5230C39A700619847 /* ViewController.swift */,
@@ -167,6 +176,17 @@
 				5B4FF602230CFF0E00619847 /* Utility.swift */,
 			);
 			path = Commons;
+			sourceTree = "<group>";
+		};
+		5B4FF608230CFF4600619847 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5B4FF60A230CFF5E00619847 /* Domain.swift */,
+				5B4FF60C230CFF5E00619847 /* EndPoints.swift */,
+				5B4FF60B230CFF5E00619847 /* NetworkManager.swift */,
+				5B4FF609230CFF5E00619847 /* NWResultStatusEnum.swift */,
+			);
+			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
 		F476986E177ED321B73C9925 /* Pods */ = {
@@ -395,10 +415,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4FF5D6230C39A700619847 /* ViewController.swift in Sources */,
+				5B4FF610230CFF5E00619847 /* EndPoints.swift in Sources */,
 				5B4FF607230CFF0F00619847 /* UIViewControllerExtention.swift in Sources */,
 				5B4FF5D4230C39A700619847 /* AppDelegate.swift in Sources */,
 				5B4FF605230CFF0F00619847 /* Utility.swift in Sources */,
+				5B4FF60F230CFF5E00619847 /* NetworkManager.swift in Sources */,
+				5B4FF60D230CFF5E00619847 /* NWResultStatusEnum.swift in Sources */,
 				5B4FF606230CFF0F00619847 /* Constants.swift in Sources */,
+				5B4FF60E230CFF5E00619847 /* Domain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
