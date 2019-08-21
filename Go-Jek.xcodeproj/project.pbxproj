@@ -15,6 +15,9 @@
 		5B4FF5DE230C39A900619847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4FF5DC230C39A900619847 /* LaunchScreen.storyboard */; };
 		5B4FF5E9230C39A900619847 /* Go_JekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF5E8230C39A900619847 /* Go_JekTests.swift */; };
 		5B4FF5F4230C39A900619847 /* Go_JekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF5F3230C39A900619847 /* Go_JekUITests.swift */; };
+		5B4FF605230CFF0F00619847 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF602230CFF0E00619847 /* Utility.swift */; };
+		5B4FF606230CFF0F00619847 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF603230CFF0E00619847 /* Constants.swift */; };
+		5B4FF607230CFF0F00619847 /* UIViewControllerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF604230CFF0F00619847 /* UIViewControllerExtention.swift */; };
 		7D94CC647CBD509E8568274B /* Pods_Go_JekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056A9A8369D92658BBF17763 /* Pods_Go_JekTests.framework */; };
 		8787B79319F06270F27626AB /* Pods_Go_Jek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F7C7954CD6B9E9729368D9 /* Pods_Go_Jek.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +59,9 @@
 		5B4FF5EF230C39A900619847 /* Go-JekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go-JekUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4FF5F3230C39A900619847 /* Go_JekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_JekUITests.swift; sourceTree = "<group>"; };
 		5B4FF5F5230C39A900619847 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4FF602230CFF0E00619847 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		5B4FF603230CFF0E00619847 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5B4FF604230CFF0F00619847 /* UIViewControllerExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtention.swift; sourceTree = "<group>"; };
 		949880C5137FFB81F62D7AAA /* Pods_Go_JekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_JekUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4636BBD98B95D046F1F0300 /* Pods-Go-JekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-JekTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go-JekTests/Pods-Go-JekTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FCFA9C71B0378D56730765CD /* Pods-Go-JekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-JekUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go-JekUITests/Pods-Go-JekUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +130,7 @@
 		5B4FF5D2230C39A700619847 /* Go-Jek */ = {
 			isa = PBXGroup;
 			children = (
+				5B4FF601230C3A8C00619847 /* Commons */,
 				5B4FF5D3230C39A700619847 /* AppDelegate.swift */,
 				5B4FF5D5230C39A700619847 /* ViewController.swift */,
 				5B4FF5D7230C39A700619847 /* Main.storyboard */,
@@ -150,6 +157,16 @@
 				5B4FF5F5230C39A900619847 /* Info.plist */,
 			);
 			path = "Go-JekUITests";
+			sourceTree = "<group>";
+		};
+		5B4FF601230C3A8C00619847 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				5B4FF603230CFF0E00619847 /* Constants.swift */,
+				5B4FF604230CFF0F00619847 /* UIViewControllerExtention.swift */,
+				5B4FF602230CFF0E00619847 /* Utility.swift */,
+			);
+			path = Commons;
 			sourceTree = "<group>";
 		};
 		F476986E177ED321B73C9925 /* Pods */ = {
@@ -378,7 +395,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4FF5D6230C39A700619847 /* ViewController.swift in Sources */,
+				5B4FF607230CFF0F00619847 /* UIViewControllerExtention.swift in Sources */,
 				5B4FF5D4230C39A700619847 /* AppDelegate.swift in Sources */,
+				5B4FF605230CFF0F00619847 /* Utility.swift in Sources */,
+				5B4FF606230CFF0F00619847 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,7 +576,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Go-Jek/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Go-Jek";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -571,7 +594,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Go-Jek/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Go-Jek";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -587,7 +613,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Go-JekTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Go-JekTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -604,7 +634,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Go-JekTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Go-JekTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -620,7 +654,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Go-JekUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Go-JekUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -636,7 +674,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Go-JekUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Go-JekUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
