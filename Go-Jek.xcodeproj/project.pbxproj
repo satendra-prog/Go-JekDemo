@@ -49,6 +49,12 @@
 		5B4FF654230E57AD00619847 /* AddOrEditContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF64D230E57AD00619847 /* AddOrEditContactModel.swift */; };
 		5B4FF655230E57AD00619847 /* AddOrEditContactProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF64E230E57AD00619847 /* AddOrEditContactProtocols.swift */; };
 		5B4FF658230E57C300619847 /* AddOrEditContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF657230E57C300619847 /* AddOrEditContactCell.swift */; };
+		5B4FF65F230EC8BC00619847 /* ContactAddOrEditInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF659230EC8BB00619847 /* ContactAddOrEditInteractorTest.swift */; };
+		5B4FF660230EC8BC00619847 /* ContactDetailPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF65A230EC8BB00619847 /* ContactDetailPresenterTest.swift */; };
+		5B4FF661230EC8BC00619847 /* ContactAddOrEditPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF65B230EC8BB00619847 /* ContactAddOrEditPresenterTest.swift */; };
+		5B4FF662230EC8BC00619847 /* ContactDetailsInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF65C230EC8BB00619847 /* ContactDetailsInteractorTest.swift */; };
+		5B4FF663230EC8BC00619847 /* ContactListInteractorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF65D230EC8BC00619847 /* ContactListInteractorTest.swift */; };
+		5B4FF664230EC8BC00619847 /* ContactListPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF65E230EC8BC00619847 /* ContactListPresenterTest.swift */; };
 		7D94CC647CBD509E8568274B /* Pods_Go_JekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056A9A8369D92658BBF17763 /* Pods_Go_JekTests.framework */; };
 		8787B79319F06270F27626AB /* Pods_Go_Jek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F7C7954CD6B9E9729368D9 /* Pods_Go_Jek.framework */; };
 /* End PBXBuildFile section */
@@ -124,6 +130,12 @@
 		5B4FF64D230E57AD00619847 /* AddOrEditContactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOrEditContactModel.swift; sourceTree = "<group>"; };
 		5B4FF64E230E57AD00619847 /* AddOrEditContactProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOrEditContactProtocols.swift; sourceTree = "<group>"; };
 		5B4FF657230E57C300619847 /* AddOrEditContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOrEditContactCell.swift; sourceTree = "<group>"; };
+		5B4FF659230EC8BB00619847 /* ContactAddOrEditInteractorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactAddOrEditInteractorTest.swift; sourceTree = "<group>"; };
+		5B4FF65A230EC8BB00619847 /* ContactDetailPresenterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailPresenterTest.swift; sourceTree = "<group>"; };
+		5B4FF65B230EC8BB00619847 /* ContactAddOrEditPresenterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactAddOrEditPresenterTest.swift; sourceTree = "<group>"; };
+		5B4FF65C230EC8BB00619847 /* ContactDetailsInteractorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailsInteractorTest.swift; sourceTree = "<group>"; };
+		5B4FF65D230EC8BC00619847 /* ContactListInteractorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListInteractorTest.swift; sourceTree = "<group>"; };
+		5B4FF65E230EC8BC00619847 /* ContactListPresenterTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListPresenterTest.swift; sourceTree = "<group>"; };
 		949880C5137FFB81F62D7AAA /* Pods_Go_JekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_JekUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4636BBD98B95D046F1F0300 /* Pods-Go-JekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-JekTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go-JekTests/Pods-Go-JekTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FCFA9C71B0378D56730765CD /* Pods-Go-JekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-JekUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go-JekUITests/Pods-Go-JekUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -210,6 +222,12 @@
 		5B4FF5E7230C39A900619847 /* Go-JekTests */ = {
 			isa = PBXGroup;
 			children = (
+				5B4FF659230EC8BB00619847 /* ContactAddOrEditInteractorTest.swift */,
+				5B4FF65B230EC8BB00619847 /* ContactAddOrEditPresenterTest.swift */,
+				5B4FF65A230EC8BB00619847 /* ContactDetailPresenterTest.swift */,
+				5B4FF65C230EC8BB00619847 /* ContactDetailsInteractorTest.swift */,
+				5B4FF65D230EC8BC00619847 /* ContactListInteractorTest.swift */,
+				5B4FF65E230EC8BC00619847 /* ContactListPresenterTest.swift */,
 				5B4FF5E8230C39A900619847 /* Go_JekTests.swift */,
 				5B4FF5EA230C39A900619847 /* Info.plist */,
 			);
@@ -586,7 +604,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B4FF664230EC8BC00619847 /* ContactListPresenterTest.swift in Sources */,
+				5B4FF65F230EC8BC00619847 /* ContactAddOrEditInteractorTest.swift in Sources */,
+				5B4FF662230EC8BC00619847 /* ContactDetailsInteractorTest.swift in Sources */,
+				5B4FF660230EC8BC00619847 /* ContactDetailPresenterTest.swift in Sources */,
+				5B4FF661230EC8BC00619847 /* ContactAddOrEditPresenterTest.swift in Sources */,
 				5B4FF5E9230C39A900619847 /* Go_JekTests.swift in Sources */,
+				5B4FF663230EC8BC00619847 /* ContactListInteractorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
