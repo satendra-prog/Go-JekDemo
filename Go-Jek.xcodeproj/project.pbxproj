@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2E80B6659876AC0391A80A15 /* Pods_Go_JekUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 949880C5137FFB81F62D7AAA /* Pods_Go_JekUITests.framework */; };
 		5B4FF5D4230C39A700619847 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF5D3230C39A700619847 /* AppDelegate.swift */; };
-		5B4FF5D6230C39A700619847 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF5D5230C39A700619847 /* ViewController.swift */; };
 		5B4FF5D9230C39A700619847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4FF5D7230C39A700619847 /* Main.storyboard */; };
 		5B4FF5DB230C39A900619847 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4FF5DA230C39A900619847 /* Assets.xcassets */; };
 		5B4FF5DE230C39A900619847 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4FF5DC230C39A900619847 /* LaunchScreen.storyboard */; };
@@ -85,7 +84,6 @@
 		473F752010DA23596147BC12 /* Pods-Go-JekUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-JekUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go-JekUITests/Pods-Go-JekUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5B4FF5D0230C39A700619847 /* Go-Jek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go-Jek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B4FF5D3230C39A700619847 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B4FF5D5230C39A700619847 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5B4FF5D8230C39A700619847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B4FF5DA230C39A900619847 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B4FF5DD230C39A900619847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -204,10 +202,9 @@
 		5B4FF5D2230C39A700619847 /* Go-Jek */ = {
 			isa = PBXGroup;
 			children = (
+				5B4FF5D3230C39A700619847 /* AppDelegate.swift */,
 				5B4FF608230CFF4600619847 /* NetworkLayer */,
 				5B4FF601230C3A8C00619847 /* Commons */,
-				5B4FF5D3230C39A700619847 /* AppDelegate.swift */,
-				5B4FF5D5230C39A700619847 /* ViewController.swift */,
 				5B4FF61D230D26E200619847 /* ContactListView */,
 				5B4FF631230E55D400619847 /* ContactDetailsView */,
 				5B4FF5DA230C39A900619847 /* Assets.xcassets */,
@@ -561,7 +558,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B4FF5D6230C39A700619847 /* ViewController.swift in Sources */,
 				5B4FF654230E57AD00619847 /* AddOrEditContactModel.swift in Sources */,
 				5B4FF653230E57AD00619847 /* AddOrEditContactRouter.swift in Sources */,
 				5B4FF63D230E561000619847 /* ContactDetailsModel.swift in Sources */,

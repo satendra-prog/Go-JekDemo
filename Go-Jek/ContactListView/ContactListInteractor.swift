@@ -45,9 +45,6 @@ extension ContactListInteractor {
         networkManager.getAllContacts{ data, response,error in
             guard let data = data else { return }
             do {
-//                guard let json = try? JSONSerialization.jsonObject(with: data, options: []) else{return}
-//
-//                print("----json----",json)
 
                 let homeFeed = try JSONDecoder().decode([DataModel].self,from: data)
                 print(homeFeed)
