@@ -31,6 +31,16 @@
 		5B4FF62D230D274100619847 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF625230D274000619847 /* DataModel.swift */; };
 		5B4FF62E230D274100619847 /* ContactListViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF626230D274000619847 /* ContactListViewExtention.swift */; };
 		5B4FF630230D277D00619847 /* ContactListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF62F230D277D00619847 /* ContactListCell.swift */; };
+		5B4FF63A230E561000619847 /* ContactDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF632230E560F00619847 /* ContactDetailPresenter.swift */; };
+		5B4FF63B230E561000619847 /* ContactDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF633230E560F00619847 /* ContactDetailProtocols.swift */; };
+		5B4FF63C230E561000619847 /* ContactDetailViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF634230E561000619847 /* ContactDetailViewExtention.swift */; };
+		5B4FF63D230E561000619847 /* ContactDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF635230E561000619847 /* ContactDetailsModel.swift */; };
+		5B4FF63E230E561000619847 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF636230E561000619847 /* ContactDetailViewController.swift */; };
+		5B4FF63F230E561000619847 /* ContactDetailResponseDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF637230E561000619847 /* ContactDetailResponseDataModel.swift */; };
+		5B4FF640230E561000619847 /* ContactDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF638230E561000619847 /* ContactDetailRouter.swift */; };
+		5B4FF641230E561000619847 /* ContactDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF639230E561000619847 /* ContactDetailInteractor.swift */; };
+		5B4FF645230E562400619847 /* ContactDetailInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF643230E562400619847 /* ContactDetailInfoCell.swift */; };
+		5B4FF646230E562400619847 /* ContactDetailDeleteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF644230E562400619847 /* ContactDetailDeleteCell.swift */; };
 		7D94CC647CBD509E8568274B /* Pods_Go_JekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056A9A8369D92658BBF17763 /* Pods_Go_JekTests.framework */; };
 		8787B79319F06270F27626AB /* Pods_Go_Jek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F7C7954CD6B9E9729368D9 /* Pods_Go_Jek.framework */; };
 /* End PBXBuildFile section */
@@ -88,6 +98,16 @@
 		5B4FF625230D274000619847 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		5B4FF626230D274000619847 /* ContactListViewExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListViewExtention.swift; sourceTree = "<group>"; };
 		5B4FF62F230D277D00619847 /* ContactListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListCell.swift; sourceTree = "<group>"; };
+		5B4FF632230E560F00619847 /* ContactDetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailPresenter.swift; sourceTree = "<group>"; };
+		5B4FF633230E560F00619847 /* ContactDetailProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailProtocols.swift; sourceTree = "<group>"; };
+		5B4FF634230E561000619847 /* ContactDetailViewExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailViewExtention.swift; sourceTree = "<group>"; };
+		5B4FF635230E561000619847 /* ContactDetailsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailsModel.swift; sourceTree = "<group>"; };
+		5B4FF636230E561000619847 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		5B4FF637230E561000619847 /* ContactDetailResponseDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailResponseDataModel.swift; sourceTree = "<group>"; };
+		5B4FF638230E561000619847 /* ContactDetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailRouter.swift; sourceTree = "<group>"; };
+		5B4FF639230E561000619847 /* ContactDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailInteractor.swift; sourceTree = "<group>"; };
+		5B4FF643230E562400619847 /* ContactDetailInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailInfoCell.swift; sourceTree = "<group>"; };
+		5B4FF644230E562400619847 /* ContactDetailDeleteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailDeleteCell.swift; sourceTree = "<group>"; };
 		949880C5137FFB81F62D7AAA /* Pods_Go_JekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_JekUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4636BBD98B95D046F1F0300 /* Pods-Go-JekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-JekTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go-JekTests/Pods-Go-JekTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FCFA9C71B0378D56730765CD /* Pods-Go-JekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-JekUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go-JekUITests/Pods-Go-JekUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -161,8 +181,9 @@
 				5B4FF5D3230C39A700619847 /* AppDelegate.swift */,
 				5B4FF5D5230C39A700619847 /* ViewController.swift */,
 				5B4FF61D230D26E200619847 /* ContactListView */,
-				5B4FF5D7230C39A700619847 /* Main.storyboard */,
+				5B4FF631230E55D400619847 /* ContactDetails */,
 				5B4FF5DA230C39A900619847 /* Assets.xcassets */,
+				5B4FF5D7230C39A700619847 /* Main.storyboard */,
 				5B4FF5DC230C39A900619847 /* LaunchScreen.storyboard */,
 				5B4FF5DF230C39A900619847 /* Info.plist */,
 			);
@@ -228,6 +249,31 @@
 			isa = PBXGroup;
 			children = (
 				5B4FF62F230D277D00619847 /* ContactListCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5B4FF631230E55D400619847 /* ContactDetails */ = {
+			isa = PBXGroup;
+			children = (
+				5B4FF642230E561900619847 /* Cell */,
+				5B4FF639230E561000619847 /* ContactDetailInteractor.swift */,
+				5B4FF632230E560F00619847 /* ContactDetailPresenter.swift */,
+				5B4FF633230E560F00619847 /* ContactDetailProtocols.swift */,
+				5B4FF637230E561000619847 /* ContactDetailResponseDataModel.swift */,
+				5B4FF638230E561000619847 /* ContactDetailRouter.swift */,
+				5B4FF635230E561000619847 /* ContactDetailsModel.swift */,
+				5B4FF636230E561000619847 /* ContactDetailViewController.swift */,
+				5B4FF634230E561000619847 /* ContactDetailViewExtention.swift */,
+			);
+			path = ContactDetails;
+			sourceTree = "<group>";
+		};
+		5B4FF642230E561900619847 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5B4FF644230E562400619847 /* ContactDetailDeleteCell.swift */,
+				5B4FF643230E562400619847 /* ContactDetailInfoCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -458,22 +504,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4FF5D6230C39A700619847 /* ViewController.swift in Sources */,
+				5B4FF63D230E561000619847 /* ContactDetailsModel.swift in Sources */,
+				5B4FF646230E562400619847 /* ContactDetailDeleteCell.swift in Sources */,
 				5B4FF610230CFF5E00619847 /* EndPoints.swift in Sources */,
 				5B4FF62C230D274100619847 /* ContactListProtocols.swift in Sources */,
 				5B4FF62A230D274100619847 /* ContactListPresenter.swift in Sources */,
 				5B4FF629230D274100619847 /* ContactListModel.swift in Sources */,
 				5B4FF62D230D274100619847 /* DataModel.swift in Sources */,
+				5B4FF63C230E561000619847 /* ContactDetailViewExtention.swift in Sources */,
 				5B4FF630230D277D00619847 /* ContactListCell.swift in Sources */,
 				5B4FF607230CFF0F00619847 /* UIViewControllerExtention.swift in Sources */,
 				5B4FF5D4230C39A700619847 /* AppDelegate.swift in Sources */,
 				5B4FF605230CFF0F00619847 /* Utility.swift in Sources */,
 				5B4FF60F230CFF5E00619847 /* NetworkManager.swift in Sources */,
+				5B4FF63E230E561000619847 /* ContactDetailViewController.swift in Sources */,
+				5B4FF63B230E561000619847 /* ContactDetailProtocols.swift in Sources */,
 				5B4FF60D230CFF5E00619847 /* NWResultStatusEnum.swift in Sources */,
+				5B4FF641230E561000619847 /* ContactDetailInteractor.swift in Sources */,
+				5B4FF63F230E561000619847 /* ContactDetailResponseDataModel.swift in Sources */,
 				5B4FF627230D274100619847 /* ContactListRouter.swift in Sources */,
 				5B4FF606230CFF0F00619847 /* Constants.swift in Sources */,
+				5B4FF63A230E561000619847 /* ContactDetailPresenter.swift in Sources */,
 				5B4FF62E230D274100619847 /* ContactListViewExtention.swift in Sources */,
 				5B4FF62B230D274100619847 /* ContactListInteractor.swift in Sources */,
 				5B4FF60E230CFF5E00619847 /* Domain.swift in Sources */,
+				5B4FF645230E562400619847 /* ContactDetailInfoCell.swift in Sources */,
+				5B4FF640230E561000619847 /* ContactDetailRouter.swift in Sources */,
 				5B4FF628230D274100619847 /* ContactListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
