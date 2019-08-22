@@ -41,6 +41,14 @@
 		5B4FF641230E561000619847 /* ContactDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF639230E561000619847 /* ContactDetailInteractor.swift */; };
 		5B4FF645230E562400619847 /* ContactDetailInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF643230E562400619847 /* ContactDetailInfoCell.swift */; };
 		5B4FF646230E562400619847 /* ContactDetailDeleteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF644230E562400619847 /* ContactDetailDeleteCell.swift */; };
+		5B4FF64F230E57AD00619847 /* AddOrEditContactViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF648230E57AC00619847 /* AddOrEditContactViewExtention.swift */; };
+		5B4FF650230E57AD00619847 /* AddOrEditContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF649230E57AD00619847 /* AddOrEditContactViewController.swift */; };
+		5B4FF651230E57AD00619847 /* AddOrEditContactInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF64A230E57AD00619847 /* AddOrEditContactInteractor.swift */; };
+		5B4FF652230E57AD00619847 /* AddOrEditContactPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF64B230E57AD00619847 /* AddOrEditContactPresenter.swift */; };
+		5B4FF653230E57AD00619847 /* AddOrEditContactRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF64C230E57AD00619847 /* AddOrEditContactRouter.swift */; };
+		5B4FF654230E57AD00619847 /* AddOrEditContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF64D230E57AD00619847 /* AddOrEditContactModel.swift */; };
+		5B4FF655230E57AD00619847 /* AddOrEditContactProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF64E230E57AD00619847 /* AddOrEditContactProtocols.swift */; };
+		5B4FF658230E57C300619847 /* AddOrEditContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4FF657230E57C300619847 /* AddOrEditContactCell.swift */; };
 		7D94CC647CBD509E8568274B /* Pods_Go_JekTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056A9A8369D92658BBF17763 /* Pods_Go_JekTests.framework */; };
 		8787B79319F06270F27626AB /* Pods_Go_Jek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F7C7954CD6B9E9729368D9 /* Pods_Go_Jek.framework */; };
 /* End PBXBuildFile section */
@@ -108,6 +116,14 @@
 		5B4FF639230E561000619847 /* ContactDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailInteractor.swift; sourceTree = "<group>"; };
 		5B4FF643230E562400619847 /* ContactDetailInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailInfoCell.swift; sourceTree = "<group>"; };
 		5B4FF644230E562400619847 /* ContactDetailDeleteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactDetailDeleteCell.swift; sourceTree = "<group>"; };
+		5B4FF648230E57AC00619847 /* AddOrEditContactViewExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOrEditContactViewExtention.swift; sourceTree = "<group>"; };
+		5B4FF649230E57AD00619847 /* AddOrEditContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOrEditContactViewController.swift; sourceTree = "<group>"; };
+		5B4FF64A230E57AD00619847 /* AddOrEditContactInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOrEditContactInteractor.swift; sourceTree = "<group>"; };
+		5B4FF64B230E57AD00619847 /* AddOrEditContactPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOrEditContactPresenter.swift; sourceTree = "<group>"; };
+		5B4FF64C230E57AD00619847 /* AddOrEditContactRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOrEditContactRouter.swift; sourceTree = "<group>"; };
+		5B4FF64D230E57AD00619847 /* AddOrEditContactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOrEditContactModel.swift; sourceTree = "<group>"; };
+		5B4FF64E230E57AD00619847 /* AddOrEditContactProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOrEditContactProtocols.swift; sourceTree = "<group>"; };
+		5B4FF657230E57C300619847 /* AddOrEditContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddOrEditContactCell.swift; sourceTree = "<group>"; };
 		949880C5137FFB81F62D7AAA /* Pods_Go_JekUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Go_JekUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4636BBD98B95D046F1F0300 /* Pods-Go-JekTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-JekTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Go-JekTests/Pods-Go-JekTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FCFA9C71B0378D56730765CD /* Pods-Go-JekUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Go-JekUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Go-JekUITests/Pods-Go-JekUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -181,8 +197,9 @@
 				5B4FF5D3230C39A700619847 /* AppDelegate.swift */,
 				5B4FF5D5230C39A700619847 /* ViewController.swift */,
 				5B4FF61D230D26E200619847 /* ContactListView */,
-				5B4FF631230E55D400619847 /* ContactDetails */,
+				5B4FF631230E55D400619847 /* ContactDetailsView */,
 				5B4FF5DA230C39A900619847 /* Assets.xcassets */,
+				5B4FF647230E578000619847 /* AddOrEditView */,
 				5B4FF5D7230C39A700619847 /* Main.storyboard */,
 				5B4FF5DC230C39A900619847 /* LaunchScreen.storyboard */,
 				5B4FF5DF230C39A900619847 /* Info.plist */,
@@ -253,7 +270,7 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
-		5B4FF631230E55D400619847 /* ContactDetails */ = {
+		5B4FF631230E55D400619847 /* ContactDetailsView */ = {
 			isa = PBXGroup;
 			children = (
 				5B4FF642230E561900619847 /* Cell */,
@@ -266,7 +283,7 @@
 				5B4FF636230E561000619847 /* ContactDetailViewController.swift */,
 				5B4FF634230E561000619847 /* ContactDetailViewExtention.swift */,
 			);
-			path = ContactDetails;
+			path = ContactDetailsView;
 			sourceTree = "<group>";
 		};
 		5B4FF642230E561900619847 /* Cell */ = {
@@ -274,6 +291,29 @@
 			children = (
 				5B4FF644230E562400619847 /* ContactDetailDeleteCell.swift */,
 				5B4FF643230E562400619847 /* ContactDetailInfoCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		5B4FF647230E578000619847 /* AddOrEditView */ = {
+			isa = PBXGroup;
+			children = (
+				5B4FF656230E57B300619847 /* Cell */,
+				5B4FF64A230E57AD00619847 /* AddOrEditContactInteractor.swift */,
+				5B4FF64D230E57AD00619847 /* AddOrEditContactModel.swift */,
+				5B4FF64B230E57AD00619847 /* AddOrEditContactPresenter.swift */,
+				5B4FF64E230E57AD00619847 /* AddOrEditContactProtocols.swift */,
+				5B4FF64C230E57AD00619847 /* AddOrEditContactRouter.swift */,
+				5B4FF649230E57AD00619847 /* AddOrEditContactViewController.swift */,
+				5B4FF648230E57AC00619847 /* AddOrEditContactViewExtention.swift */,
+			);
+			path = AddOrEditView;
+			sourceTree = "<group>";
+		};
+		5B4FF656230E57B300619847 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5B4FF657230E57C300619847 /* AddOrEditContactCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -504,9 +544,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B4FF5D6230C39A700619847 /* ViewController.swift in Sources */,
+				5B4FF654230E57AD00619847 /* AddOrEditContactModel.swift in Sources */,
+				5B4FF653230E57AD00619847 /* AddOrEditContactRouter.swift in Sources */,
 				5B4FF63D230E561000619847 /* ContactDetailsModel.swift in Sources */,
 				5B4FF646230E562400619847 /* ContactDetailDeleteCell.swift in Sources */,
+				5B4FF655230E57AD00619847 /* AddOrEditContactProtocols.swift in Sources */,
 				5B4FF610230CFF5E00619847 /* EndPoints.swift in Sources */,
+				5B4FF650230E57AD00619847 /* AddOrEditContactViewController.swift in Sources */,
+				5B4FF651230E57AD00619847 /* AddOrEditContactInteractor.swift in Sources */,
 				5B4FF62C230D274100619847 /* ContactListProtocols.swift in Sources */,
 				5B4FF62A230D274100619847 /* ContactListPresenter.swift in Sources */,
 				5B4FF629230D274100619847 /* ContactListModel.swift in Sources */,
@@ -515,6 +560,7 @@
 				5B4FF630230D277D00619847 /* ContactListCell.swift in Sources */,
 				5B4FF607230CFF0F00619847 /* UIViewControllerExtention.swift in Sources */,
 				5B4FF5D4230C39A700619847 /* AppDelegate.swift in Sources */,
+				5B4FF652230E57AD00619847 /* AddOrEditContactPresenter.swift in Sources */,
 				5B4FF605230CFF0F00619847 /* Utility.swift in Sources */,
 				5B4FF60F230CFF5E00619847 /* NetworkManager.swift in Sources */,
 				5B4FF63E230E561000619847 /* ContactDetailViewController.swift in Sources */,
@@ -522,9 +568,11 @@
 				5B4FF60D230CFF5E00619847 /* NWResultStatusEnum.swift in Sources */,
 				5B4FF641230E561000619847 /* ContactDetailInteractor.swift in Sources */,
 				5B4FF63F230E561000619847 /* ContactDetailResponseDataModel.swift in Sources */,
+				5B4FF658230E57C300619847 /* AddOrEditContactCell.swift in Sources */,
 				5B4FF627230D274100619847 /* ContactListRouter.swift in Sources */,
 				5B4FF606230CFF0F00619847 /* Constants.swift in Sources */,
 				5B4FF63A230E561000619847 /* ContactDetailPresenter.swift in Sources */,
+				5B4FF64F230E57AD00619847 /* AddOrEditContactViewExtention.swift in Sources */,
 				5B4FF62E230D274100619847 /* ContactListViewExtention.swift in Sources */,
 				5B4FF62B230D274100619847 /* ContactListInteractor.swift in Sources */,
 				5B4FF60E230CFF5E00619847 /* Domain.swift in Sources */,

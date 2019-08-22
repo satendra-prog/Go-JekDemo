@@ -83,12 +83,7 @@ class ContactDetailRouter: ContactDetailWireframeProtocol {
             }
         }
     }
-//
-//    func passDataToAddOrEdit(source: ContactDetailsDataStore, destination: inout AddOrEditContactDataStore)
-//    {
-//        destination.addOrEdit = AddOrEdit.add
-//    }
-//
+
     func passDataToAddOrEditContacts(source: ContactDetailsDataStore, destination: inout AddOrEditContactDataStore) {
         destination.selectedContact = source.selectedContactDetails
         destination.addOrEdit = .edit
